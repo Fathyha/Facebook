@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Facebook</title>
+</head>
+<style>
+    body {
+      background-color: rgb(214, 210, 210);  
+    }
+    .row{
+       width: 60em;
+       height: 70em;
+       display: flex;
+    }
+    .col{
+        background-color: blueviolet;
+        flex: 100%;
+        height: 24em;
+        margin: 0.25em; 
+        position: relative;
+        color: white;
+        border-radius: 1em;
+   }
+   .img1 {
+    background-image: url(1.jpg);
+    background-size: contain;
+   }
+
+   .img2 {
+    background-image: url(2.jpg);
+    background-size: contain;
+   }
+
+   .img3 {
+    background-image: url(3.jpg);
+    background-size: contain;
+   }
+
+   .img4{
+    background-image: url(4.jpg);
+    background-size: contain;
+   }
+
+   .img5{
+    background-image: url(5.jpg);
+    background-size: contain;
+   }
+   h5 {
+    bottom: 0;
+    position: absolute;
+    margin-left: 1em;
+   }
+   .p-img1 ,.p-img2, .p-img3, .p-img4, .p-img5{
+    background-image: url(1.jpg);
+    background-size: cover;
+    width:2em;
+    height: 2em;
+    border-radius: 10em;
+    position: absolute;
+    border: 0.2em solid blue;
+    margin: 1em;
+   }
+   .p-img2 {
+    background-image: url(2.jpg);
+    background-size: cover;
+    width:2em;
+    height: 2em;
+    border-radius: 10em;
+    margin: 1em;
+    position: absolute;
+    border: 0.2em solid blue;
+   }
+   .p-img3 {
+    background-image: url(3.jpg);
+    background-size: cover;
+    width:2em;
+    height: 2em;
+    border-radius: 10em;
+    margin: 1em;
+    position: absolute;
+    border: 0.2em solid blue;
+   }
+   .p-img4 {
+    background-image: url(4.jpg);
+    background-size: cover;
+    width:2em;
+    height:2em;
+    border-radius: 10em;
+    margin: 1em;
+    position: absolute;
+    border: 0.2em solid blue;
+   }
+   .p-img5 {
+    background-image: url(5.jpg);
+    background-size: cover;
+    width:2em;
+    height: 2em;
+    border-radius: 10em;
+    margin: 1em;
+    position: absolute;
+    border: 0.2em solid blue;
+   }
+   .story-1-1 {
+    width: 100%;
+    height: 6em;
+    background-color: white;
+    bottom: 0;
+    position: absolute;
+    border-radius: 0em 0em 1em 1em;
+   }
+
+   h4{
+    text-align: center;
+    color: black;
+  padding-top: 1em;   
+   }
+
+   .fa-plus-circle {
+    font-size: 3.2em;
+    margin: 5em 0em 0em 1.3em;
+    position: absolute;
+    z-index: 1;
+    color: blue;
+    border: 0.1em solid white;
+    border-radius: 4em;
+   }
+
+   .circle {
+    width: 4em;
+    height: 4em;
+    position: absolute;
+    background-color: white;
+    border-radius: 5em;
+    left: 9em;
+    top: 9em;
+   }
+
+   .fa-arrow-right {
+    margin: 1em 0em 0em 1em;
+    color: black;
+    font-size: 1.5em;
+
+
+   }
+
+
+
+   
+</style>
+<body>
+    <div class="row">
+        <div class="col img1">
+            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+            <div class="p-img1"></div>
+              <h5>Olaide Lawal</h5>  
+            <div class="story-1-1">
+              <h4>Credit story</h4>  
+            </div>
+        </div>
+        <div class="col img2">
+            <div class="p-img2"></div>
+            <h5>Olaide Lawal</h5>
+        </div>
+        <div class="col img3">
+            <div class="p-img3"></div>
+            <h5>Olaide Lawal</h5>
+        </div>
+        <div class="col img4">
+            <div class="p-img4"></div>
+            <h5>Olaide Lawal</h5>
+        </div>
+        <div class="col img5"> 
+            <div class="p-img5"></div>
+            <h5>Olaide Lawal</h5>
+            <div class="circle">
+               <i class="fa-solid fa-arrow-right"></i>
+            </div>
+           
+        </div> 
+
+    </div>
+</body>
+</html>
